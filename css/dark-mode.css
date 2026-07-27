@@ -1,0 +1,442 @@
+/* ============================================
+   DARK MODE - BaniTwin (Global)
+   ============================================ */
+
+/* ===== BODY ===== */
+body.dark-mode {
+    background: #0f172a !important;
+    color: #e2e8f0 !important;
+}
+
+/* ===== SECTION TITLE ===== */
+body.dark-mode .section-title {
+    color: #ffffff !important;
+}
+
+/* ===== SECTION SUBTITLE ===== */
+body.dark-mode .section-sub {
+    color: #94a3b8 !important;
+}
+
+/* ===== NAVBAR ===== */
+body.dark-mode .navbar {
+    background: #0b1a33 !important;
+    border-bottom-color: #38bdf8 !important;
+}
+
+/* ===== HERO ===== */
+body.dark-mode .hero {
+    background: linear-gradient(145deg, #0b1a33 0%, #0f172a 100%) !important;
+}
+body.dark-mode .hero p {
+    color: #cbd5e1 !important;
+}
+body.dark-mode .hero .tagline {
+    color: #94a3b8 !important;
+}
+body.dark-mode .hero-stats .stat .label {
+    color: #94a3b8 !important;
+}
+body.dark-mode .hero-illustration {
+    background: rgba(255, 255, 255, 0.04) !important;
+    border-color: rgba(255, 255, 255, 0.06) !important;
+}
+
+/* ===== HERO CARD ===== */
+body.dark-mode .hero-card {
+    background: rgba(255, 255, 255, 0.04) !important;
+    border-color: rgba(255, 255, 255, 0.06) !important;
+}
+body.dark-mode .hero-card .benefit-list li {
+    color: #cbd5e1 !important;
+}
+body.dark-mode .hero-card .benefit-list li strong {
+    color: #ffffff !important;
+}
+body.dark-mode .hero-card .notice {
+    color: #94a3b8 !important;
+}
+body.dark-mode .hero-card h3 {
+    color: #ffffff !important;
+}
+
+/* ===== SLIDESHOW ===== */
+body.dark-mode section[style*="padding: 40px 0; background: #f8fafc;"] {
+    background: #0f172a !important;
+}
+body.dark-mode section[style*="padding: 40px 0; background: #f8fafc;"] .section-title {
+    color: #ffffff !important;
+}
+body.dark-mode section[style*="padding: 40px 0; background: #f8fafc;"] .section-sub {
+    color: #94a3b8 !important;
+}
+body.dark-mode .swiper {
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.4) !important;
+}
+body.dark-mode .swiper-slide .slide-caption {
+    background: #0b1a33 !important;
+    color: #e2e8f0 !important;
+}
+body.dark-mode .swiper-slide .slide-caption h4 {
+    color: #e2e8f0 !important;
+}
+body.dark-mode .swiper-button-next,
+body.dark-mode .swiper-button-prev {
+    color: #38bdf8 !important;
+}
+body.dark-mode .swiper-pagination-bullet {
+    background: #475569 !important;
+}
+body.dark-mode .swiper-pagination-bullet-active {
+    background: #38bdf8 !important;
+}
+
+/* ===== PROBLEM & SOLUTION ===== */
+body.dark-mode .problem-solution {
+    background: #0f172a !important;
+}
+body.dark-mode .problem-solution .section-title {
+    color: #ffffff !important;
+}
+body.dark-mode .problem-solution .section-sub {
+    color: #94a3b8 !important;
+}
+body.dark-mode .ps-card {
+    background: #1e293b !important;
+}
+body.dark-mode .ps-card p,
+body.dark-mode .ps-card li {
+    color: #e2e8f0 !important;
+}
+body.dark-mode .ps-card ul li {
+    border-bottom-color: #334155 !important;
+}
+body.dark-mode .ps-card.solution {
+    background: #1a2e2a !important;
+    border-left-color: #22c55e !important;
+}
+body.dark-mode .ps-card h3 {
+    color: #ffffff !important;
+}
+
+/* ===== FEATURES ===== */
+body.dark-mode .features {
+    background: #0f172a !important;
+}
+body.dark-mode .features .section-title {
+    color: #ffffff !important;
+}
+body.dark-mode .features .section-sub {
+    color: #94a3b8 !important;
+}
+body.dark-mode .feature-item {
+    background: #1e293b !important;
+    border-color: #334155 !important;
+}
+body.dark-mode .feature-item p {
+    color: #cbd5e1 !important;
+}
+body.dark-mode .feature-item .icon {
+    color: #7dd3fc !important;
+}
+body.dark-mode .feature-item h4 {
+    color: #ffffff !important;
+}
+
+/* ===== CHARTS ===== */
+body.dark-mode .chart-section {
+    background: #0f172a !important;
+}
+body.dark-mode .chart-section .section-title {
+    color: #ffffff !important;
+}
+body.dark-mode .chart-section .section-sub {
+    color: #94a3b8 !important;
+}
+body.dark-mode .chart-box {
+    background: #1e293b !important;
+    border-color: #334155 !important;
+}
+body.dark-mode .chart-box h4 {
+    color: #ffffff !important;
+}
+body.dark-mode .chart-box p {
+    color: #94a3b8 !important;
+}
+body.dark-mode .chart-section div[style*="background:#f1f5f9"] {
+    background: #1e293b !important;
+}
+body.dark-mode .chart-section div[style*="background:#f1f5f9"] span {
+    color: #e2e8f0 !important;
+}
+
+/* ===== MARKET SECTION ===== */
+body.dark-mode .market-section {
+    background: #1e293b !important;
+}
+body.dark-mode .market-section h3 {
+    color: #ffffff !important;
+}
+body.dark-mode .market-section p {
+    color: #cbd5e1 !important;
+}
+
+/* ===== MARKET ITEMS ===== */
+body.dark-mode .market-item {
+    background: #0f172a !important;
+    color: #94a3b8 !important;
+}
+body.dark-mode .market-item i {
+    color: #7dd3fc !important;
+}
+
+/* ===== FOOTER ===== */
+body.dark-mode .footer {
+    background: #0b1a33 !important;
+    color: #94a3b8 !important;
+}
+body.dark-mode .footer a {
+    color: #38bdf8 !important;
+}
+
+/* ===== FOOTER NEW STYLES (برای لینکدین) ===== */
+body.dark-mode .linkedin-footer-link:hover {
+    background-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+/* ===== TECHNOLOGY PAGE ===== */
+body.dark-mode section[style*="background:#f1f5f9"] {
+    background: #1e293b !important;
+}
+body.dark-mode section[style*="background:#f1f5f9"] .section-title {
+    color: #ffffff !important;
+}
+body.dark-mode section[style*="background:#f1f5f9"] .section-sub {
+    color: #94a3b8 !important;
+}
+body.dark-mode section[style*="background:#f1f5f9"] div[style*="background:#fff"] {
+    background: #0f172a !important;
+    border-color: #334155 !important;
+}
+body.dark-mode section[style*="background:#f1f5f9"] div[style*="background:#fff"] h4 {
+    color: #e2e8f0 !important;
+}
+body.dark-mode section[style*="background:#f1f5f9"] div[style*="background:#fff"] p {
+    color: #94a3b8 !important;
+}
+body.dark-mode section[style*="background:#f8fafc"] {
+    background: #0f172a !important;
+}
+body.dark-mode section[style*="background:#f8fafc"] .section-title {
+    color: #ffffff !important;
+}
+body.dark-mode section[style*="background:#f8fafc"] .section-sub {
+    color: #94a3b8 !important;
+}
+body.dark-mode .card {
+    background: #1e293b !important;
+    border-color: #334155 !important;
+}
+body.dark-mode .card p {
+    color: #cbd5e1 !important;
+}
+body.dark-mode .card .icon {
+    color: #7dd3fc !important;
+}
+body.dark-mode .card h4 {
+    color: #ffffff !important;
+}
+body.dark-mode .compare-table {
+    background: #1e293b !important;
+}
+body.dark-mode .compare-table th {
+    background: #0b1a33 !important;
+    color: #f1f5f9 !important;
+}
+body.dark-mode .compare-table td {
+    border-bottom-color: #334155 !important;
+    color: #e2e8f0 !important;
+}
+body.dark-mode .compare-table tr:last-child td {
+    border-bottom: none !important;
+}
+body.dark-mode .compare-table .check {
+    color: #4ade80 !important;
+}
+body.dark-mode .compare-table .cross {
+    color: #f87171 !important;
+}
+body.dark-mode .tech-image {
+    border-color: #334155 !important;
+}
+body.dark-mode .img-caption {
+    color: #94a3b8 !important;
+}
+body.dark-mode .pinn-description {
+    color: #cbd5e1 !important;
+}
+body.dark-mode .pinn-description strong {
+    color: #e2e8f0 !important;
+}
+
+/* ===== BENEFITS PAGE ===== */
+body.dark-mode .benefit-card {
+    background: #1e293b !important;
+    border-color: #334155 !important;
+}
+body.dark-mode .benefit-card p {
+    color: #cbd5e1 !important;
+}
+body.dark-mode .benefit-card .icon {
+    color: #7dd3fc !important;
+}
+body.dark-mode .benefit-card .highlight {
+    background: #334155 !important;
+    color: #f1f5f9 !important;
+}
+body.dark-mode .benefit-card h4 {
+    color: #ffffff !important;
+}
+body.dark-mode .stat-box {
+    background: #1e293b !important;
+    border-color: #334155 !important;
+}
+body.dark-mode .stat-box .number {
+    color: #f1f5f9 !important;
+}
+body.dark-mode .stat-box .number.green {
+    color: #4ade80 !important;
+}
+body.dark-mode .stat-box .label {
+    color: #94a3b8 !important;
+}
+body.dark-mode section[style*="background:#f8fafc"] {
+    background: #1e293b !important;
+}
+body.dark-mode section[style*="background:#f8fafc"] .section-title {
+    color: #ffffff !important;
+}
+body.dark-mode section[style*="background:#f8fafc"] .section-sub {
+    color: #94a3b8 !important;
+}
+body.dark-mode .financial-box {
+    background: #1e293b !important;
+    border-color: #334155 !important;
+}
+body.dark-mode .financial-box .label {
+    color: #94a3b8 !important;
+}
+
+/* ===== TEAM PAGE ===== */
+body.dark-mode .team-card {
+    background: #1e293b !important;
+    border-color: #334155 !important;
+}
+body.dark-mode .team-card .info h3 {
+    color: #ffffff !important;
+}
+body.dark-mode .team-card .info .bio {
+    color: #cbd5e1 !important;
+}
+body.dark-mode .team-card .info ul li {
+    color: #cbd5e1 !important;
+    border-bottom-color: #334155 !important;
+}
+body.dark-mode .team-card .info .role {
+    color: #38bdf8 !important;
+}
+body.dark-mode .expertise-tag {
+    background: #0f172a !important;
+    color: #cbd5e1 !important;
+}
+body.dark-mode .team-card .avatar {
+    background: #0f172a !important;
+}
+body.dark-mode div[style*="background:#f1f5f9"] {
+    background: #1e293b !important;
+}
+body.dark-mode div[style*="background:#f1f5f9"] h3 {
+    color: #ffffff !important;
+}
+body.dark-mode div[style*="background:#f1f5f9"] p {
+    color: #cbd5e1 !important;
+}
+body.dark-mode div[style*="background:#f1f5f9"] span[style*="background:#fff"] {
+    background: #0f172a !important;
+    color: #e2e8f0 !important;
+}
+body.dark-mode .team-intro {
+    color: #cbd5e1 !important;
+}
+
+/* ===== CONTACT PAGE ===== */
+body.dark-mode .contact-info {
+    background: #1e293b !important;
+    border-color: #334155 !important;
+}
+body.dark-mode .contact-info h2 {
+    color: #ffffff !important;
+}
+body.dark-mode .contact-info h2 span {
+    color: #38bdf8 !important;
+}
+body.dark-mode .contact-info .description {
+    color: #cbd5e1 !important;
+}
+body.dark-mode .contact-info .contact-methods .method {
+    background: #0f172a !important;
+    border-color: #334155 !important;
+}
+body.dark-mode .contact-info .contact-methods .method .info .value {
+    color: #e2e8f0 !important;
+}
+body.dark-mode .contact-info .response-badge {
+    background: #1a3a5c !important;
+    color: #7dd3fc !important;
+}
+body.dark-mode .contact-form {
+    background: #1e293b !important;
+    border-color: #334155 !important;
+}
+body.dark-mode .contact-form h4 {
+    color: #ffffff !important;
+}
+body.dark-mode .contact-form label {
+    color: #cbd5e1 !important;
+}
+body.dark-mode .contact-form input,
+body.dark-mode .contact-form textarea {
+    background: #0f172a !important;
+    border-color: #334155 !important;
+    color: #e2e8f0 !important;
+}
+body.dark-mode .contact-form input:focus,
+body.dark-mode .contact-form textarea:focus {
+    border-color: #38bdf8 !important;
+    box-shadow: 0 0 0 4px rgba(56, 189, 248, 0.15) !important;
+    background: #1e293b !important;
+}
+body.dark-mode .cta-section {
+    background: #1e293b !important;
+    border-color: #334155 !important;
+}
+body.dark-mode .cta-section h3 {
+    color: #ffffff !important;
+}
+body.dark-mode .cta-section p {
+    color: #cbd5e1 !important;
+}
+body.dark-mode .cta-section .btn-primary {
+    background: #38bdf8 !important;
+    color: #0b1a33 !important;
+}
+body.dark-mode .cta-section .btn-primary:hover {
+    background: #7dd3fc !important;
+}
+body.dark-mode .cta-section .btn-secondary {
+    background: #1a3a5c !important;
+    color: #f1f5f9 !important;
+}
+body.dark-mode .cta-section .btn-secondary:hover {
+    background: #2a4a7c !important;
+}
