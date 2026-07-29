@@ -436,16 +436,30 @@ body.dark-mode a.btn-secondary:hover {
     transform: scale(1.02) !important;
 }
 /* ===== ABOUT PAGE - PROFILE HEADER FIX ===== */
-body.dark-mode .about-wrapper {
+body.dark-mode .profile-card {
     background: #0f172a !important; /* رنگ پس‌زمینه تیره */
     border-bottom-color: #334155 !important;
 }
-body.dark-mode .about-wrapper h2 {
+body.dark-mode .profile-card h2 {
     color: #ffffff !important;
 }
-body.dark-mode .about-wrapper .role {
+body.dark-mode .profile-card .role {
     color: #38bdf8 !important;
 }
-body.dark-mode .about-wrapper .tagline {
+body.dark-mode .profile-card .tagline {
+    color: #94a3b8 !important;
+}
+
+body.dark-mode .cta-box {
+    background: #0f172a !important; /* رنگ پس‌زمینه تیره */
+    border-bottom-color: #334155 !important;
+}
+body.dark-mode .cta-box h2 {
+    color: #ffffff !important;
+}
+body.dark-mode .cta-box .role {
+    color: #38bdf8 !important;
+}
+body.dark-mode .cta-box .tagline {
     color: #94a3b8 !important;
 }
