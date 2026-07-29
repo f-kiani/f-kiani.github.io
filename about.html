@@ -12,12 +12,13 @@
     <style>
         /* ===== RESET & BASE ===== */
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: 'Inter', sans-serif; background: #0f172a; color: #e2e8f0; line-height: 1.7; transition: background 0.3s, color 0.3s; }
+        /* تنظیم رنگ روشن به عنوان پیش‌فرض برای کنترل با dark-mode.css */
+        body { font-family: 'Inter', sans-serif; background: #f8fafc; color: #0f172a; line-height: 1.7; transition: background 0.3s, color 0.3s; }
         .container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
 
         /* ===== NAVBAR ===== */
         .navbar {
-            background: #0b1a33;
+            background: #ffffff;
             padding: 16px 24px;
             display: flex;
             justify-content: flex-end;
@@ -30,7 +31,7 @@
             left: 0;
             width: 100%;
             z-index: 1000;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
             transition: background 0.3s, border-color 0.3s;
         }
         .nav-links {
@@ -40,7 +41,7 @@
             align-items: center;
         }
         .nav-links > a {
-            color: #cbd5e1;
+            color: #334155;
             text-decoration: none;
             font-size: 15px;
             font-weight: 500;
@@ -61,7 +62,7 @@
             display: inline-block;
         }
         .dropdown > a {
-            color: #cbd5e1;
+            color: #334155;
             text-decoration: none;
             font-size: 15px;
             font-weight: 500;
@@ -84,12 +85,12 @@
             position: absolute;
             top: 100%;
             left: 0;
-            background: #0b1a33;
+            background: #ffffff;
             min-width: 240px;
-            border: 1px solid #334155;
+            border: 1px solid #e2e8f0;
             border-radius: 12px;
             padding: 8px 0;
-            box-shadow: 0 12px 30px rgba(0,0,0,0.4);
+            box-shadow: 0 12px 30px rgba(0,0,0,0.15);
             z-index: 1001;
             margin-top: 8px;
             transition: opacity 0.25s ease, visibility 0.25s ease, transform 0.25s ease;
@@ -101,7 +102,7 @@
             transform: translateY(0);
         }
         .dropdown-content a {
-            color: #cbd5e1 !important;
+            color: #334155 !important;
             padding: 10px 20px !important;
             display: block !important;
             text-decoration: none !important;
@@ -125,7 +126,7 @@
         .theme-toggle {
             background: none;
             border: none;
-            color: #cbd5e1;
+            color: #334155;
             font-size: 20px;
             cursor: pointer;
             padding: 4px 10px;
@@ -137,7 +138,7 @@
         }
         .theme-toggle:hover {
             color: #38bdf8;
-            background: rgba(255,255,255,0.05);
+            background: rgba(0,0,0,0.05);
         }
         .theme-toggle i { font-size: 20px; }
         .theme-toggle .label { font-size: 13px; font-weight: 500; }
@@ -145,8 +146,8 @@
 
         /* ===== HERO ===== */
         .hero {
-            background: linear-gradient(145deg, #0b1a33 0%, #1a3a5c 100%);
-            color: #fff;
+            background: linear-gradient(145deg, #eff6ff 0%, #f8fafc 100%);
+            color: #0f172a;
             padding: 100px 0 48px;
             border-bottom: 6px solid #38bdf8;
             transition: background 0.3s, border-color 0.3s;
@@ -161,7 +162,7 @@
         }
         .hero p {
             font-size: 18px;
-            color: #dbeafe;
+            color: #475569;
             max-width: 700px;
             margin-top: 12px;
         }
@@ -176,24 +177,24 @@
             margin: 0 auto;
         }
         .profile-card {
-            background: #1e293b;
+            background: #ffffff;
             border-radius: 24px;
-            box-shadow: 0 12px 30px rgba(0,0,0,0.3);
-            border: 1px solid #334155;
+            box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+            border: 1px solid #e2e8f0;
             overflow: hidden;
             width: 100%;
             transition: background 0.3s, border-color 0.3s;
         }
         .profile-card:hover {
-            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.12);
         }
         .profile-header {
             display: flex;
             flex-direction: column;
             align-items: center;
             padding: 48px 32px 24px;
-            background: #0f172a;
-            border-bottom: 1px solid #334155;
+            background: #f8fafc;
+            border-bottom: 1px solid #e2e8f0;
             transition: background 0.3s, border-color 0.3s;
         }
         .profile-avatar {
@@ -213,7 +214,7 @@
         .profile-header h2 {
             font-size: 32px;
             font-weight: 800;
-            color: #fff;
+            color: #0f172a;
         }
         .profile-header .role {
             font-size: 18px;
@@ -223,19 +224,19 @@
         }
         .profile-header .tagline {
             font-size: 15px;
-            color: #94a3b8;
+            color: #64748b;
             margin-top: 8px;
         }
         .profile-body { padding: 32px; }
         .profile-body .bio {
             font-size: 17px;
-            color: #cbd5e1;
+            color: #475569;
             line-height: 1.9;
             margin-bottom: 24px;
             text-align: justify;
         }
         .profile-body .bio strong {
-            color: #fff;
+            color: #0f172a;
         }
         .expertise-grid {
             display: grid;
@@ -244,7 +245,7 @@
             margin: 24px 0;
         }
         .expertise-item {
-            background: #0f172a;
+            background: #f8fafc;
             padding: 14px 18px;
             border-radius: 12px;
             display: flex;
@@ -252,8 +253,8 @@
             gap: 12px;
             font-weight: 500;
             font-size: 14px;
-            color: #e2e8f0;
-            border: 1px solid #334155;
+            color: #0f172a;
+            border: 1px solid #e2e8f0;
             transition: background 0.3s, color 0.3s;
         }
         .expertise-item i {
@@ -269,12 +270,12 @@
         }
         .achievement-list li {
             padding: 12px 0;
-            border-bottom: 1px solid #334155;
+            border-bottom: 1px solid #e2e8f0;
             display: flex;
             align-items: center;
             gap: 14px;
             font-size: 16px;
-            color: #cbd5e1;
+            color: #475569;
             transition: border-color 0.3s, color 0.3s;
         }
         .achievement-list li:last-child {
@@ -289,11 +290,11 @@
 
         .cta-box {
             margin-top: 40px;
-            background: #1e293b;
+            background: #f1f5f9;
             padding: 32px 24px;
             border-radius: 20px;
             text-align: center;
-            border: 1px solid #334155;
+            border: 1px solid #e2e8f0;
             width: 100%;
             transition: background 0.3s, border-color 0.3s;
         }
@@ -301,10 +302,10 @@
             font-size: 22px;
             font-weight: 700;
             margin-bottom: 8px;
-            color: #fff;
+            color: #0f172a;
         }
         .cta-box p {
-            color: #94a3b8;
+            color: #64748b;
             font-size: 16px;
             margin-bottom: 16px;
         }
@@ -328,8 +329,8 @@
 
         /* ===== FOOTER ===== */
         .footer {
-            background: #0b1a33;
-            color: #94a3b8;
+            background: #f1f5f9;
+            color: #64748b;
             padding: 32px 0;
             border-top: 4px solid #38bdf8;
             transition: background 0.3s, color 0.3s, border-color 0.3s;
@@ -354,7 +355,7 @@
             line-height: 0;
         }
         .footer .linkedin-footer-link:hover {
-            background-color: rgba(255, 255, 255, 0.08);
+            background-color: rgba(0, 0, 0, 0.05);
             transform: scale(1.05);
         }
         .footer .linkedin-footer-icon {
@@ -469,7 +470,7 @@
                             <div class="expertise-item"><i class="fas fa-leaf"></i> Carbon Reduction</div>
                         </div>
 
-                        <h4 style="margin: 24px 0 12px; font-size: 18px; color: #fff;">
+                        <h4 style="margin: 24px 0 12px; font-size: 18px; color: #0f172a;">
                             <i class="fas fa-trophy" style="color:#f59e0b;"></i> Key Achievements
                         </h4>
                         <ul class="achievement-list">
