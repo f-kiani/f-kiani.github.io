@@ -436,30 +436,76 @@ body.dark-mode a.btn-secondary:hover {
     transform: scale(1.02) !important;
 }
 /* ===== ABOUT PAGE - PROFILE HEADER FIX ===== */
+/* ===== ABOUT PAGE - PROFILE CARD & CTA BOX COMPLETE FIX ===== */
+
+/* کل کانتینر اصلی پروفایل */
 body.dark-mode .profile-card {
-    background: #0f172a !important; /* رنگ پس‌زمینه تیره */
+    background: #1e293b !important;       /* کارت اصلی تیره */
+    border-color: #334155 !important;     /* حاشیه تیره */
+}
+
+/* تنظیمات بخش هدر پروفایل (در صورتی که قبلاً اضافه نشده باشد) */
+body.dark-mode .profile-header {
+    background: #0f172a !important;       /* هدر تیره‌تر */
     border-bottom-color: #334155 !important;
 }
-body.dark-mode .profile-card h2 {
+body.dark-mode .profile-header h2 {
     color: #ffffff !important;
 }
-body.dark-mode .profile-card .role {
+body.dark-mode .profile-header .role {
     color: #38bdf8 !important;
 }
-body.dark-mode .profile-card .tagline {
+body.dark-mode .profile-header .tagline {
     color: #94a3b8 !important;
 }
 
-body.dark-mode .cta-box {
-    background: #0f172a !important; /* رنگ پس‌زمینه تیره */
+/* تمام متن‌های داخل بدنه پروفایل */
+body.dark-mode .profile-body .bio {
+    color: #cbd5e1 !important;            /* متن پاراگراف‌ها */
+}
+body.dark-mode .profile-body .bio strong {
+    color: #ffffff !important;            /* متن پررنگ داخل پاراگراف‌ها */
+}
+
+/* بخش لیست دستاوردها */
+body.dark-mode .achievement-list li {
+    color: #cbd5e1 !important;
     border-bottom-color: #334155 !important;
 }
-body.dark-mode .cta-box h2 {
+body.dark-mode .achievement-list li i {
+    color: #4ade80 !important;            /* آیکون تیک سبز روشن‌تر در حالت دارک */
+}
+
+/* بخش تخصص‌ها (expertise-grid) */
+body.dark-mode .expertise-item {
+    background: #0f172a !important;       /* باکس‌های تخصص تیره */
+    border-color: #334155 !important;
+    color: #e2e8f0 !important;
+}
+
+/* عنوان "Key Achievements" */
+body.dark-mode .profile-body h4 {
     color: #ffffff !important;
 }
-body.dark-mode .cta-box .role {
-    color: #38bdf8 !important;
+body.dark-mode .profile-body h4 i {
+    color: #fbbf24 !important;            /* رنگ مدال/جام طلایی */
 }
-body.dark-mode .cta-box .tagline {
+
+/* ===== CTA BOX (فراخوان به اقدام) ===== */
+body.dark-mode .cta-box {
+    background: #1e293b !important;       /* کانتینر CTA تیره */
+    border-color: #334155 !important;
+}
+body.dark-mode .cta-box h3 {
+    color: #ffffff !important;
+}
+body.dark-mode .cta-box p {
     color: #94a3b8 !important;
+}
+body.dark-mode .cta-box .btn {
+    background: #38bdf8 !important;       /* دکمه آبی روشن */
+    color: #0b1a33 !important;
+}
+body.dark-mode .cta-box .btn:hover {
+    background: #7dd3fc !important;
 }
