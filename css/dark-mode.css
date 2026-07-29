@@ -440,3 +440,17 @@ body.dark-mode .cta-section .btn-secondary {
 body.dark-mode .cta-section .btn-secondary:hover {
     background: #2a4a7c !important;
 }
+
+/* ============================================== */
+/* ===== DOWNLOAD CV BUTTON (FIX) ===== */
+/* ============================================== */
+body.dark-mode a.btn-secondary {
+    background: #38bdf8 !important;
+    color: #0b1a33 !important;
+    border: none !important;
+}
+body.dark-mode a.btn-secondary:hover {
+    background: #7dd3fc !important;
+    color: #0b1a33 !important;
+    transform: scale(1.02) !important;
+}
