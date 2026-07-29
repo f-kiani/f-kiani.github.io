@@ -436,16 +436,16 @@ body.dark-mode a.btn-secondary:hover {
     transform: scale(1.02) !important;
 }
 /* ===== ABOUT PAGE - PROFILE HEADER FIX ===== */
-body.dark-mode .container {
+body.dark-mode .about-wrapper {
     background: #0f172a !important; /* رنگ پس‌زمینه تیره */
     border-bottom-color: #334155 !important;
 }
-body.dark-mode .container h2 {
+body.dark-mode .about-wrapper h2 {
     color: #ffffff !important;
 }
-body.dark-mode .container .role {
+body.dark-mode .about-wrapper .role {
     color: #38bdf8 !important;
 }
-body.dark-mode .container .tagline {
+body.dark-mode .about-wrapper .tagline {
     color: #94a3b8 !important;
 }
