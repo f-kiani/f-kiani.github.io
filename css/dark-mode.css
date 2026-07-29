@@ -435,3 +435,17 @@ body.dark-mode a.btn-secondary:hover {
     color: #0b1a33 !important;
     transform: scale(1.02) !important;
 }
+/* ===== ABOUT PAGE - PROFILE HEADER FIX ===== */
+body.dark-mode .profile-header {
+    background: #0f172a !important; /* رنگ پس‌زمینه تیره */
+    border-bottom-color: #334155 !important;
+}
+body.dark-mode .profile-header h2 {
+    color: #ffffff !important;
+}
+body.dark-mode .profile-header .role {
+    color: #38bdf8 !important;
+}
+body.dark-mode .profile-header .tagline {
+    color: #94a3b8 !important;
+}
