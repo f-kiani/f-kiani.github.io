@@ -509,3 +509,7 @@ body.dark-mode .cta-box .btn {
 body.dark-mode .cta-box .btn:hover {
     background: #7dd3fc !important;
 }
+.dropdown-content {
+    min-width: max-content; /* جایگزین min-width: 240px */
+    /* سایر ویژگی‌ها مانند قبل باقی می‌مانند */
+}
